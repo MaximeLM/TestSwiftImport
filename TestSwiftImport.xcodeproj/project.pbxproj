@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554CF8D72077C9F50094C321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CF8D62077C9F50094C321 /* AppDelegate.swift */; };
+		554CF8D92077C9F70094C321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554CF8D82077C9F70094C321 /* Assets.xcassets */; };
+		554CF8DC2077C9F70094C321 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554CF8DA2077C9F70094C321 /* MainMenu.xib */; };
+		617EDC72C00203CDC5546C85 /* libPods-TestSwiftImport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4851194CB0AB720F602E702C /* libPods-TestSwiftImport.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		018473E7AECCF9F75E5F6815 /* Pods-TestSwiftImport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftImport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSwiftImport/Pods-TestSwiftImport.debug.xcconfig"; sourceTree = "<group>"; };
+		4851194CB0AB720F602E702C /* libPods-TestSwiftImport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSwiftImport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		554CF8D32077C9F50094C321 /* TestSwiftImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554CF8D62077C9F50094C321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		554CF8D82077C9F70094C321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		554CF8DB2077C9F70094C321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		554CF8DD2077C9F70094C321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554CF8DE2077C9F70094C321 /* TestSwiftImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestSwiftImport.entitlements; sourceTree = "<group>"; };
+		6190D9EA954FD947BC7FBD90 /* Pods-TestSwiftImport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftImport.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSwiftImport/Pods-TestSwiftImport.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554CF8D02077C9F50094C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617EDC72C00203CDC5546C85 /* libPods-TestSwiftImport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3119A50938DFD06C58BD8E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4851194CB0AB720F602E702C /* libPods-TestSwiftImport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554CF8CA2077C9F50094C321 = {
+			isa = PBXGroup;
+			children = (
+				554CF8D52077C9F50094C321 /* TestSwiftImport */,
+				554CF8D42077C9F50094C321 /* Products */,
+				9604C4F936EE54D2D25CA9AD /* Pods */,
+				3119A50938DFD06C58BD8E7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		554CF8D42077C9F50094C321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554CF8D32077C9F50094C321 /* TestSwiftImport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554CF8D52077C9F50094C321 /* TestSwiftImport */ = {
+			isa = PBXGroup;
+			children = (
+				554CF8D62077C9F50094C321 /* AppDelegate.swift */,
+				554CF8D82077C9F70094C321 /* Assets.xcassets */,
+				554CF8DA2077C9F70094C321 /* MainMenu.xib */,
+				554CF8DD2077C9F70094C321 /* Info.plist */,
+				554CF8DE2077C9F70094C321 /* TestSwiftImport.entitlements */,
+			);
+			path = TestSwiftImport;
+			sourceTree = "<group>";
+		};
+		9604C4F936EE54D2D25CA9AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				018473E7AECCF9F75E5F6815 /* Pods-TestSwiftImport.debug.xcconfig */,
+				6190D9EA954FD947BC7FBD90 /* Pods-TestSwiftImport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554CF8D22077C9F50094C321 /* TestSwiftImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554CF8E12077C9F70094C321 /* Build configuration list for PBXNativeTarget "TestSwiftImport" */;
+			buildPhases = (
+				AFA04A70B91D0F6B03FE043D /* [CP] Check Pods Manifest.lock */,
+				554CF8CF2077C9F50094C321 /* Sources */,
+				554CF8D02077C9F50094C321 /* Frameworks */,
+				554CF8D12077C9F50094C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSwiftImport;
+			productName = TestSwiftImport;
+			productReference = 554CF8D32077C9F50094C321 /* TestSwiftImport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554CF8CB2077C9F50094C321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					554CF8D22077C9F50094C321 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 554CF8CE2077C9F50094C321 /* Build configuration list for PBXProject "TestSwiftImport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554CF8CA2077C9F50094C321;
+			productRefGroup = 554CF8D42077C9F50094C321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554CF8D22077C9F50094C321 /* TestSwiftImport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554CF8D12077C9F50094C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CF8D92077C9F70094C321 /* Assets.xcassets in Resources */,
+				554CF8DC2077C9F70094C321 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFA04A70B91D0F6B03FE043D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSwiftImport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554CF8CF2077C9F50094C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CF8D72077C9F50094C321 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		554CF8DA2077C9F70094C321 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CF8DB2077C9F70094C321 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554CF8DF2077C9F70094C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		554CF8E02077C9F70094C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		554CF8E22077C9F70094C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018473E7AECCF9F75E5F6815 /* Pods-TestSwiftImport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestSwiftImport/TestSwiftImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestSwiftImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximelemoine.TestSwiftImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		554CF8E32077C9F70094C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6190D9EA954FD947BC7FBD90 /* Pods-TestSwiftImport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestSwiftImport/TestSwiftImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestSwiftImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximelemoine.TestSwiftImport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554CF8CE2077C9F50094C321 /* Build configuration list for PBXProject "TestSwiftImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554CF8DF2077C9F70094C321 /* Debug */,
+				554CF8E02077C9F70094C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554CF8E12077C9F70094C321 /* Build configuration list for PBXNativeTarget "TestSwiftImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554CF8E22077C9F70094C321 /* Debug */,
+				554CF8E32077C9F70094C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554CF8CB2077C9F50094C321 /* Project object */;
+}
