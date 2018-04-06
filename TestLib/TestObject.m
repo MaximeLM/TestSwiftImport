@@ -6,7 +6,7 @@
 //
 
 #import "TestObject.h"
-#import "TestLib-Swift.h"
+#import <TestLib/TestLib-Swift.h>
 
 @implementation TestObject
 
